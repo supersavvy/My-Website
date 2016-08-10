@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Bootstrap Example</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <style>
+         @keyframes animatedBackground {
+         from { background-position: 0 0; }
+         to {background-position: 100% 0;}
+         }
+         body   {
+         background-image:url("http://i.imgur.com/vAynb2P.jpg");
+         background-position: 0px 0px;
+         background-repeat: repeat;
+         animation: animatedBackground 40s linear infinite;
+         background-
+         }
+         .container-fluid {
+         width: 1550px;
+         height: 900px;
+         opacity: 1;
+         }
+         /*div {
+         width:1550px;
+         height: 900px;
+         background-image:url("http://i.imgur.com/EiTnD5O.png");
+         background-position: 0px 0px;
+         background-repeat: repeat-x;
+         animation: animatedBackground 40s linear infinite;
+         }
+         */
+         .black{
+         background-color: black;
+         }
+         head {
+         background-color: black
+         }
+         body {
+         background-color: black
+         }
+         /*header,
+         section,
+         aside,
+         footer {
+         margin: 0 1.5% 24px 1.5%;
+         }*/
+         /*section {
+         float: left;
+         width: 63%;
+         }
+         aside {
+         float: right;
+         width: 30%;
+         }
+         footer {
+         clear: both;
+         margin-bottom: 0;
+         }*/
+         h1, h2, h3, h4, h5 {
+         color: white;
+         }
+         #flower{  
+         float: left;
+         }
+         #button{
+         float:left;
+         }
+         h1 {
+         font-family: Copperplate Gothic Light;
+         font-size: 100px;
+         font-style: normal;
+         font-variant: normal;
+         font-weight: 500;
+         background-color: transparent;
+         margin-bottom: 0
+         opacity:1;
+         text-shadow: 0 0 25px #ffe066;
+         }
+         h2 {
+         font-family: Copperplate Gothic Light;
+         font-size: 50px;
+         font-style: normal;
+         font-variant: normal;
+         font-weight: 500;
+         background-color: transparent;
+         margin-bottom: 0
+         opacity:1;
+         text-shadow: 1.5px 3.5px 1px black!important;
+         }
+         h3 {
+         font-family: Copperplate Gothic Light;
+         font-size: 25px;
+         font-style: normal;
+         font-variant: normal;
+         font-weight: 500;
+         background-color: transparent;
+         margin-bottom: 0
+         opacity:1;
+         text-shadow: 1.5px 3px 1px black!important;
+         }
+         h4 {
+         font-family: Copperplate Gothic Light;
+         font-size: 23px;
+         font-style: normal;
+         font-variant: normal;
+         font-weight: 500;
+         background-color: transparent;
+         margin-bottom: 0
+         opacity:1;
+         text-shadow: 1px 3px 1px black!important;;
+         }
+         h5 {
+         font-size: 1em;
+         }
+         h6 {
+         font-size: 0.5em;
+         }
+         div.center {
+         text-align:center;
+         } 
+         div.center a {
+         color:white;
+         } 
+         /*.black {
+         background-color:black;
+         }  */
+      </style>
+      <script src="slideshow.js"></script>
+   </head>
+   <body>
+      <div class="container-fluid">
+      <div class="row">
+         <div class="col-sm-12">
+            <nav class="navbar navbar-inverse">
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">Savvy's Page</a>
+               </div>
+               <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="aboutme.html">About Me</a></li>
+                     <li class="active"><a href="projects.html">My Projects</a></li>
+                     <li><a href="contactme.html">Contact Me</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                  </ul>
+               </div>
+         </div>
+         </nav>
+      </div>
+      <div class="row">
+         <div class="col-sm-12">
+            <h1 class="text-center">My Projects and Passions!</h1>
+         </div>
+         <div class="row">
+            <div class="col-sm-12">
+               <div class="center">
+                  <div class="col-md-4">
+                  </div>
+                  <div class="col-md-4">
+                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                           <li data-target="#myCarousel" data-slide-to="1"></li>
+                           <li data-target="#myCarousel" data-slide-to="2"></li>
+                           <li data-target="#myCarousel" data-slide-to="3"></li>
+                           <li data-target="#myCarousel" data-slide-to="4"></li>
+                           <li data-target="#myCarousel" data-slide-to="5"></li>
+                           <li data-target="#myCarousel" data-slide-to="6"></li>
+                           <li data-target="#myCarousel" data-slide-to="7"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                           <div class="item active">
+                              <a href=#gwc> <img src="http://i.imgur.com/06KMAVn.png" alt="Girls Who Code"></a>
+                           </div>
+                           <div class="item">
+                              <a href=#life><img src="http://i.imgur.com/T0hISV4.jpg" alt="The Undeniable Life"></a>
+                           </div>
+                           <div class="item">
+                              <a href=#errc><img src="http://i.imgur.com/ApVJLwR.png" alt="Ethnic Race Relations Committee"></a>
+                           </div>
+                           <div class="item">
+                              <a href=#gawd><img src="http://i.imgur.com/bp5C7iS.png" alt="Graphic and Web Design Inc."></a>
+                           </div>
+                           <div class="item">
+                              <a href=#debate><img src="http://i.imgur.com/QHoxG8n.jpg" alt="Speech and Debate"></a>
+                           </div>
+                           <div class="item">
+                              <a href=#shn><img src="http://i.imgur.com/BQwALVt.png" alt="Stop Hunger Now"></a>
+                           </div>
+                           <div class="item">
+                              <a href=#deca><img src="http://i.imgur.com/9xssf8M.png" alt="DECA"></a>
+                           </div>
+                           <div class="item">
+                              <a href=#rfl><img src="http://i.imgur.com/FKInWNP.png" alt="Relay for Life"></a>
+                           </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                  </div>
+                  <br>
+                  <br>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h2  p class = "text-center" div id="gwc">Girls Who Code</h2>
+                        <h4>
+                           <p> Girls Who Code was life-changing for me. I learned the basics of Python, C++, HTML, CSS, JavaScript, and other important languages. I had the opportunity to attend important tech events like the CybHer Security Conference at Stanford University, and explore prominent technical companies, including: Juniper Networks, GoodReads, Twitch, and multiple branches of Amazon like Amazon Web Services and Lab126.</p>
+                           <p>Before this program, I didn't think that I was cut out to be a programmer, much less be involved with computer science at all. Girls Who Code helped me discover that coding is always logical, and if you work hard enough, you can create whatever you want (like this website - coded in HTML, JavaScript, and CSS!). Thank you Girls Who Code, for the unforgettable experiences. 
+                        </h4>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h2  p class = "text-center" div id="life">The Undeniable Life</h2>
+                        <h4>
+                           <p> The Undeniable Life is an online magazine targeted towards young teenage girls. Most of the content concerns topics like relationships and lifestyles, which is why I decided to apply for an internship, and later take a leadership role in heading science, technology, and current event columns. I write frequently for all three columns, and am also the head for the weekly "Breaking News" segment, one of our main features.</p>
+                           <p>Many people told me that an internship for an online magazine didn't really fit into my story, but they couldn't have been more wrong. I am truly passionate about spreading important knowledge, and empowering young women all around me.</p>
+                        </h4>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h2  p class = "text-center" div id="errc">Ethnic Race Relations Committee</h2>
+                        <h4>
+                           <p> As the Activities Coordinator for Ethnic Race Relations Committee, I work to make sure that all discrimination based on appearance or ethnicity is immediately dissolved. I also help manage large school-wide events, like Diwali, Holi, and Lunar New Year celebrations. I have a lot of fun teaching peers about other cultures, and making sure that school is a safe environment for everyone to be who they are.</p>
+                        </h4>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h2  p class = "text-center" div id="gawd">Graphic and Web Design Inc.</h2>
+                        <h4>
+                           <p> Graphic and Web Design Inc. is a non-profit that helps both non-profits and high school students in conjunction. GAWD Inc. meets with non-profits that need to expand their digital platform, and gives these digital projects to students in an effort to help the community develop programming and web design skills. As the Director of Publicity, I reached out to these non-profits and other technical experts, and connected them to students. It was an extremely fulfilling experience that connected me to a lot of professional and student programmers.</p>
+                        </h4>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h2  p class = "text-center" div id="debate">Speech and Debate</h2>
+                        <h4>
+                           <p> I've done Speech and Debate for my entire life, and became a varsity debate member in freshman year. It's taught me so much, from how to create a sturdy argument backed up with evidence, to being a confident public speaker. I've been to many tournaments, from UC Berkeley to Stanford University. I've won top speaker and advanced to late in the elimination rounds at many tournmanets as well, including Santa Clara University and the JV Western Championships.</p>
+                           I also try to give back to my team as much as possible. I dedicate afterschool on Monday every week to judging practice rounds and giving topic lectures to our novice debaters, so that our team can continue to be the best around.
+                        </h4>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h2  p class = "text-center" div id="shn">Stop Hunger Now</h2>
+                        <h4>
+                           <p> Stop Hunger Now is a non-profit that aims to package food as inexpensively as possible to send to third-world countries. As the secretary and part of the founding team of the Stop Hunger Now club at my school, I coordinate events with the organization so that students at our school have the opportunity to help package meals, and help make an impact on the world around them.</p>
+                        </h4>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h2  p class = "text-center" div id="deca">DECA</h2>
+                        <h4>
+                           <p> DECA is a finance and competition based program that allows students to simulate working in the economic world. I've reached out to local businesses in my area to conduct research. As a result of the research I conducted, I placed top 10 at both regionals and states in freshman year, and 3rd place at regionals and top 8 at states in sophmore year. I learned a grest deal about timme management and community outreach, and made a lot of amazing friends along the way.</p>
+                        </h4>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h2  p class = "text-center" div id="rfl">Relay for Life</h2>
+                        <h4>
+                           <p> Relay for Life employs teams at schools to raise money for cancer research. Our school raised over $60,000. Our individual team, The Friend Team, with me as a senior member, raised over $2,000. It was such a humbling experience to meet so many strong warriors, and hear advice that will stick with me for the rest of my life. </p>
+                        </h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+</html>
