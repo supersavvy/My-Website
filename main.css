@@ -1713,27 +1713,27 @@
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #ffdb00;
+				background-color: #fdb700;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #ffdb00;
+				background-color: #fdb700;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #ffdb00;
+				background-color: #fdb700;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #ffdb00;
+				background-color: #fdb700;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ffdb00;
+				background-color: #fdb700;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #ffdb00;
+				background-color: #fdb700;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
