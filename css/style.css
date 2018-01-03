@@ -54,6 +54,13 @@ body a:focus {
 /*-- banner --*/
 
 .banner {
+
+   
+	
+background-image: url("http://i.imgur.com/Q6rlxAD.jpg");
+   background-position: 0px 0px;
+
+    background-size: cover;
    @keyframes animatedBackground {
    0% { background-position: 0 0; }
    100% { background-position: -3170px 0; }
@@ -74,10 +81,6 @@ body a:focus {
    0% { background-position: 0 0; }
    100% { background-position: -3170px 0; }
    } 
-   background-image: url("http://i.imgur.com/Q6rlxAD.jpg");
-   background-position: 0px 0px;
-
-    background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
