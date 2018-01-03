@@ -54,7 +54,29 @@ body a:focus {
 /*-- banner --*/
 
 .banner {
-    background: url(../images/bg2.jpg)no-repeat center 0px fixed;
+   @keyframes animatedBackground {
+   0% { background-position: 0 0; }
+   100% { background-position: -3170px 0; }
+   }
+   @-moz-keyframes animatedBackground {
+   0% { background-position: 0 0; }
+   100% { background-position: -3170px 0; }
+   }
+   @-webkit-keyframes animatedBackground {
+   0% { background-position: 0 0; }
+   100% { background-position: -3170px 0; }
+   }
+   @-ms-keyframes animatedBackground {
+   0% { background-position: 0 0; }
+   100% { background-position: -3170px 0; }
+   }
+   @-o-keyframes animatedBackground {
+   0% { background-position: 0 0; }
+   100% { background-position: -3170px 0; }
+   } 
+   background-image: url("http://i.imgur.com/Q6rlxAD.jpg");
+   background-position: 0px 0px;
+
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
