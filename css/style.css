@@ -81,11 +81,6 @@ background-image: url("http://i.imgur.com/Q6rlxAD.jpg");
    0% { background-position: 0 0; }
    100% { background-position: -3170px 0; }
    } 
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-   
 }
 .banner-text {
     padding: 16em 0;
