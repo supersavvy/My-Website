@@ -475,7 +475,7 @@ div#skills {
 
 .skills h4 {
     font-size: 1.8em;
-    color: #4378ff;
+    color: #ffffff;
     letter-spacing: 2px;
     margin-bottom: 0.8em;
 }
@@ -784,7 +784,7 @@ div#services {
 .nav-tabs>li>a {
     margin-right: 3px;
     font-size: 1em;
-    color: #212121;
+    color: #ffffff;
     border: solid 2px #03afdd;
     border-radius: 0px;
     -webkit-border-radius: 0px;
