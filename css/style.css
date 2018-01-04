@@ -369,6 +369,15 @@ h3.agileits-title {
     text-align: center;
 }
 
+h4.agileits-title {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+    color: #ffffff;
+    text-align: center;
+}
+
 a.wthree-.about-link {
     color: #fff;
     border: 1px solid #03afdd;
