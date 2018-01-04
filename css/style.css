@@ -365,7 +365,7 @@ h3.agileits-title {
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 1.5em;
-    color: #1853a1;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -796,7 +796,7 @@ div#services {
 }
 
 .nav-tabs>li>a:focus {
-    background: transparent;
+    background: #000000;
 }
 
 .nav-tabs {
