@@ -4,9 +4,25 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-@keyframes animatedBackground {
-	from { background-position: 0 0; }
-	to { background-position: 100% 0; }
+   @keyframes animatedBackground {
+   0% { background-position: 0 0; }
+   100% { background-position: -3170px 0; }
+   }
+   @-moz-keyframes animatedBackground {
+   0% { background-position: 0 0; }
+   100% { background-position: -3170px 0; }
+   }
+   @-webkit-keyframes animatedBackground {
+   0% { background-position: 0 0; }
+   100% { background-position: -3170px 0; }
+   }
+   @-ms-keyframes animatedBackground {
+   0% { background-position: 0 0; }
+   100% { background-position: -3170px 0; }
+   }
+   @-o-keyframes animatedBackground {
+   0% { background-position: 0 0; }
+   100% { background-position: -3170px 0; }
 }
 
 body {
@@ -60,9 +76,15 @@ body a:focus {
 .banner {
    background-image: url("http://i.imgur.com/Q6rlxAD.jpg");
    background-position: 0px 0px;
-	background-repeat: repeat-x;
+/* 	background-repeat: repeat-x;
 
-	animation: animatedBackground 40s linear infinite;
+	animation: animatedBackground 40s linear infinite; */
+	
+	animation: animatedBackground 42s linear infinite;
+      -moz-animation: animatedBackground 42s linear infinite;
+      -webkit-animation: animatedBackground 42s linear infinite;
+      -ms-animation: animatedBackground 42s linear infinite;
+      -o-animation: animatedBackground 42s linear infinite;
 }
 
 .banner-text {
