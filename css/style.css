@@ -4,7 +4,7 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-/*    @keyframes animatedBackground {
+   @keyframes animatedBackground {
    0% { background-position: 0 0; }
    100% { background-position: -3170px 0; }
    }
@@ -23,7 +23,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    @-o-keyframes animatedBackground {
    0% { background-position: 0 0; }
    100% { background-position: -3170px 0; }
-} */
+}
 
 body {
     margin: 0;
