@@ -80,11 +80,11 @@ body a:focus {
 
 	animation: animatedBackground 40s linear infinite; */
 	
-	animation: animatedBackground 42s linear infinite;
-      -moz-animation: animatedBackground 42s linear infinite;
-      -webkit-animation: animatedBackground 42s linear infinite;
-      -ms-animation: animatedBackground 42s linear infinite;
-      -o-animation: animatedBackground 42s linear infinite;
+	animation: animatedBackground 60s linear infinite;
+      -moz-animation: animatedBackground 60s linear infinite;
+      -webkit-animation: animatedBackground 60s linear infinite;
+      -ms-animation: animatedBackground 60s linear infinite;
+      -o-animation: animatedBackground 60s linear infinite;
 }
 
 .banner-text {
