@@ -31,6 +31,12 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+#pls-center {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+}
+
 body a,
 .agile_form input[type="submit"] {
     -webkit-transition: 2s all;
@@ -217,7 +223,7 @@ btn-wayra:hover {
 .btn-wayra.button--inverted:hover::before {
     background-color: #fff;
 }
-
+	
 
 /*-- //banner --*/
 
